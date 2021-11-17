@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    background-color: blue;
+}
+.container header{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.container header .left{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    /* margin-top: 20px; */
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.container header .right{
+    /* float: right; */
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.container header .right ul{
+    list-style: none;
+    display: flex;
+    /* margin-top: 0; */
+}
+.container header .right ul li{
+    margin-right: 30px;
+    font-size: 30px;
+}
+.container header .right ul li a{
+    text-decoration: none;
+    color: white;
+}
+.container .section-1{
+    display: flex;
+    border: 2px solid white;
+}
+.container .section-1 .rp img{
+    width: 1000px;
+    height: 700px;
+}
+.container .section-1 .lp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.container .section-1 .lp h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: white;
+}
+.container .section-1 .lp h3{
+    font-size: 20px;
+    color: white;
+}
+.container .section-1 .lp .buttons{
+    display: flex;
+    /* width: 300px; */
+    margin-top: 20px;
+
+}
+.container .section-1 .lp .buttons .but-1{
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container .section-1 .lp .buttons .but-2{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container .section-1 .lp .images img{
+    width: 100px;
+    margin-right: 3px;
+}
+.container .section-1 .lp .images #one{
+    margin-top: 30px;
+}
